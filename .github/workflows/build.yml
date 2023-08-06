@@ -1,0 +1,8 @@
+name: My Job
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-another-reusable:
+    uses: jaowl2o1/my-project/.github/workflows/build.yml@main
